@@ -2,7 +2,7 @@ This is a simple node server that proxies requests to URLs that return JSON. Som
 
 jsonproxy expects two URL parameters: an encoded URL to fetch JSON from, and the name of the callback function. Example usages:
 
-    $.getJSON('http://benrhughes.com:3003/?url=http%3A%2F%2Fwww.strava.com%2Fapi%2Fv1%2Frides%2F44467489&callback=?', function(data){
+    $.getJSON('http://<sever>:3003/?url=http%3A%2F%2Fwww.strava.com%2Fapi%2Fv1%2Frides%2F12345&callback=?', function(data){
 			if(data.myObject)
 				.....
 		});
